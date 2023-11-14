@@ -15,4 +15,8 @@ li a {
     padding: 18px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: solid;
+    font-size: 12px;
+}
+li a :hover {
+    background-color: aqua;
 }
