@@ -18,6 +18,6 @@ li a {
     font-size: 26px;
 }
 li a:hover {
-    background-color: aqua;
+    color: aqua;
     font-size: 100px;
 }
