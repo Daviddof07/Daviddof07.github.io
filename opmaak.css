@@ -17,6 +17,6 @@ li a {
     text-decoration: solid;
     font-size: 26px;
 }
-li a :hover {
+li a:hover {
     background-color: aqua;
 }
