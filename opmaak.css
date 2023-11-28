@@ -3,10 +3,10 @@ ul{
     margin: 20;
     padding: 1em;
     overflow: hidden;
-        background-image: url(website\ background.jpg); 
-        background-size: cover; /* Zorgt ervoor dat de afbeelding de hele achtergrond bedekt */
-        background-position: center; /* Plaats de afbeelding in het midden van het scherm */
-        background-repeat: no-repeat; /* Voorkomt herhaling van de achtergrondafbeelding */
+    background-image: url(website\ background.jpg); 
+    background-size: cover; /* Zorgt ervoor dat de afbeelding de hele achtergrond bedekt */
+    background-position: center; /* Plaats de afbeelding in het midden van het scherm */
+    background-repeat: no-repeat; /* Voorkomt herhaling van de achtergrondafbeelding */
    
     }
 li {
