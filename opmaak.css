@@ -18,7 +18,7 @@ li a {
     text-align: center; /* Centreert de tekst binnen de links */
     padding: 16px 18px; /* Voegt 16px ruimt onder en boven toe. Ook voegt het 18px ruimte toe aan de  linker- en rechterkant */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Bepaalt de lettertypefamilie voor de tekst */
-    font-size: 16px;
+    font-size: 16px; /* Stelt de lettergrootte in op 16px */
 }
 li a:hover {
     color: aqua; /* Wanneer je met je muis over de tekst gaat wordt de kleur blauw */
