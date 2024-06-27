@@ -1,9 +1,9 @@
 ul{
-    list-style-type: none;
-    margin: 13;
-    padding: 1em;
-    overflow: hidden;
-    background-image: url(website\ background.jpg); 
+    list-style-type: none; /* Verwijdert standaard opsommingstekens (bolletjes) van de lijst */
+    margin: 13; /* Zet de marge rondom de lijst op 13px */
+    padding: 1em; /* Voegt 1em ruimte toe aan de binnenkant van de lijst */
+    overflow: hidden; /* Verbergt alles wat buiten de lijst valt */
+    background-image: url(website\ background.jpg); /* Zoekt de image background.jpg op  */
     background-size: cover; /* Zorgt ervoor dat de afbeelding de hele achtergrond bedekt */
     background-position: center; /* Plaats de afbeelding in het midden van het scherm */
     background-repeat: no-repeat; /* Voorkomt herhaling van de achtergrondafbeelding */
