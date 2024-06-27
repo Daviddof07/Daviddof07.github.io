@@ -10,15 +10,14 @@ ul{
    
     }
 li {
-    float: left; 
+    float: left; /* Laat de lijstitems naast elkaar zweven in plaats van onder elkaar */
 }
 li a {
     display: block;
-    color: burlywood;
-    text-align: center;
-    padding: 16px 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: solid;
+    color: burlywood; /* Zet de tekstkleur van de links op burlywood */
+    text-align: center; /* Centreert de tekst binnen de links */
+    padding: 16px 18px; /* Voegt 16px ruimt onder en boven toe. Ook voegt het 18px ruimte toe aan de  linker- en rechterkant */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Bepaalt de lettertypefamilie voor de tekst */
     font-size: 16px;
 }
 li a:hover {
