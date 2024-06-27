@@ -13,7 +13,7 @@ li {
     float: left; /* Laat de lijstitems naast elkaar zweven in plaats van onder elkaar */
 }
 li a {
-    display: block;
+    display: block; /* Zorgt ervoor dat de anker (a) een blokelement wordt, zodat het de volledige ruimte van het lijstitem inneemt */
     color: burlywood; /* Zet de tekstkleur van de links op burlywood */
     text-align: center; /* Centreert de tekst binnen de links */
     padding: 16px 18px; /* Voegt 16px ruimt onder en boven toe. Ook voegt het 18px ruimte toe aan de  linker- en rechterkant */
