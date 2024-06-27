@@ -15,17 +15,17 @@ h1 {
   color: black;
   text-align: center;
   text-shadow: 2px 2px 3px purple;
-  font-size: large;
+  
 }
 </style>
 <!-- Interne CSS-stijlen: dit stelt de achtergrond kleur in voor de body en het stelt de stijlen voor h1 in.
   Tekst-shadow:2px 2px 3px purple; zorgt voor een paarse schaduw, text-align center voor een gecentreerde tekst, en color: black voor een zwarte tekstkleur. -->
 
  <body>
-  
+  <div style="font-size: xx-large;"> 
    <h1>Home Page</h1> 
-
-  <!-- Stopt de tekst "Home Page" in <h1> -->
+  </div>
+  <!-- Stopt de tekst "Home Page" in <h1> en zorgt voor extra grootte met "font-size: xx-large;"  -->
 
     <p>
       Dit is de website van de<span style="color: gold;font-weight: bold; font-size: x-large;"> geweldige </span>  David. 
@@ -43,12 +43,13 @@ h1 {
  
   <!-- Breekt de lijn; zorgt voor ruimte -->
     
-    <div style="float: right">
-        <span style="position: absolute; top: 100px; right: 230px; color:red; font-weight: bold; font-stretch: ultra-expanded;font-size: x-large;">~ Opties ~</span>               
-    </div>
+   
     <!-- Div zorgt voor een zwevend effect -->
 
     <ul>
+      <div style="float: right">
+        <span style="position: absolute; top: 100px; right: 230px; color:red; font-weight: bold; font-stretch: ultra-expanded;font-size: x-large;">~ Opties ~</span>               
+    </div>
       <li><a href="index.html">Home Page</a></li>
       <li><a href="binairstelsel.html">Overige Bestanden</a></li>
       <li><a href="kleurmodellen.html">CLV</a></li>
